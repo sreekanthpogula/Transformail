@@ -1,0 +1,44 @@
+# Transformail Flask Application
+
+The Transformail Flask Application is a web-based tool that allows you to convert Salesforce templates to Simon templates. It utilizes the Flask framework and provides a user-friendly interface for uploading Salesforce templates, converting them to Simon templates using Jinja2, and downloading the converted templates.
+
+## Features
+
+- Upload Salesforce templates in SML format.
+- Convert SML templates to Jinja2 format using predefined conversion patterns.
+- Download the converted Jinja2 templates.
+
+## Installation
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/your-username/transformail-flask-app.git
+
+Change into the project directory:
+    -- cd transformail-flask-app
+
+create venv :
+   -- py -3 -m venv venv
+
+   -- venv\Scripts\activate
+
+Install the required dependencies:
+    -- pip install -r requirements.txt
+Usage
+Start the Flask application:
+    -- python app.py
+Open your web browser and navigate to http://localhost:5000.
+
+Upload a Salesforce template in SML format using the provided form.
+
+Click the "Convert" button to convert the template to Jinja2 format.
+
+Once the conversion is complete, you can download the converted template by clicking the "Download Converted Template" button.
+
+Contributing
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please create an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License.
+Feel free to customize this README file according to your specific project re
