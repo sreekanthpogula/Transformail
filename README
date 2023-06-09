@@ -27,7 +27,7 @@ Install the required dependencies:
     -- pip install -r requirements.txt
 Usage
 Start the Flask application:
-    -- python app.py
+    -- flask run
 Open your web browser and navigate to http://localhost:5000.
 
 Upload a Salesforce template in SML format using the provided form.
